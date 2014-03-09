@@ -18,34 +18,27 @@ footer {
 
 /*navigation*/
 .navigation {
-    margin: 0;
-    padding: 0;
-    height: 1em;
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
 }
 .navigation li {
-    height: 35px;
     list-style: none;
-    display: inline-block;
+    display: inline;
     background: #003366;
+    margin: 10px;
+    height: 200px;
 }
-/*.navigation:first-child
-{
-    margin-right:  400px;
-    position: 
-}*/
 .navigation li a {
     color: #cccccc;
     text-decoration: none;
+    display: inline-block;
 }
 .navigation li:hover {
     background-color:#FFCC00;
 }
 
 #Homeicone {
-    width:5px;
-    height: 5px;
+    height: 40px;
 }
 /*
 Home Content 
