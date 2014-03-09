@@ -24,18 +24,20 @@ footer {
     height: 1em;
     font-family: Lato, Arial, sans-serif;
     font-weight: 300;
+    display: inline-block;
+    text-align: justify;
+    margin-left: 340px;
+    margin-top: 360px;
 }
 .navigation li {
-    height: 200px;
+    height: 25px;
+    border: 1px solid #cccccc;
     list-style: none;
-    display: inline-block;
     background: #003366;
+    float: left;
+    padding: 10px 20px 3px 20px;
 }
-/*.navigation:first-child
-{
-    margin-right:  400px;
-    position: 
-}*/
+
 .navigation li a {
     color: #cccccc;
     text-decoration: none;
