@@ -23,12 +23,16 @@ footer {
     display: inline;
   margin-left: 10px;
   margin-right: 10px;
+  background: #003366;
 }
 
 .navigation li a {
   display: block;
   /*padding: 3px 8px;*/
-  color: black;
+  color: #cccccc;
   text-decoration: none;
-        }
+}
+.navigation li a:hover {
+    background-color:#FFCC00;
+}
         
