@@ -99,10 +99,11 @@ Home Content
     color: black;
     font-size: 12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+    text-decoration: none;
 }
 .fourColumn a:hover{
-    color: #FFB124;
-    text-decoration: none;
+    color:#FFCC00;
 }
 
 .Column {
