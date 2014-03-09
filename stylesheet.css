@@ -1,3 +1,8 @@
+#Header-container{
+    height: 400px;
+    background-image: url('img/HomepageImage2.jpg');
+}
+
 footer {
     border: 1px solid #003366;
     background: #003366;
