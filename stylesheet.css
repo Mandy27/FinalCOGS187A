@@ -16,28 +16,30 @@ footer {
     padding-right: 10px;
 }
 .navigation {
-  margin: 0;
-  padding: 0;
-  height: 1em;
-  font-family: Lato, Arial, sans-serif;
-  font-weight: 300;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 300;
 }
 .navigation li {
-  list-style: none;
-  float: right;
+    list-style: none;
     display: inline;
-  margin-left: 10px;
-  margin-right: 10px;
-  background: #003366;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #003366;
 }
 
 .navigation li a {
-  display: block;
-  /*padding: 3px 8px;*/
-  color: #cccccc;
-  text-decoration: none;
+    display: block;
+    /*padding: 3px 8px;*/
+    color: #cccccc;
+    text-decoration: none;
 }
 .navigation li a:hover {
     background-color:#FFCC00;
 }
-        
+#Homeicone {
+    width:5px;
+    height: 5px;
+}
