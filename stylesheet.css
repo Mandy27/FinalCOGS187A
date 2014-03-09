@@ -3,5 +3,10 @@ footer {
     background: #003366;
     color: #cccccc;
     padding: 10px;
-    padding-right: 50px;
+}
+
+#siteMap{
+    float: right;
+    color: #cccccc;
+    padding-right: 10px;
 }
