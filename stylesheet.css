@@ -1,3 +1,4 @@
+/************************HOME PAGE*******************************************/
 #Header-container{
     height: 400px;
     background-image: url('img/HomepageImage2.jpg');
@@ -25,7 +26,7 @@ footer {
     font-weight: 300;
 }
 .navigation li {
-    height: 35px;
+    height: 100px;
     list-style: none;
     display: inline-block;
     background: #003366;
@@ -93,7 +94,9 @@ Home Content
 .fourColumn img{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    width: 92%;
+    
 }
 .fourColumn a{
     color: black;
@@ -107,11 +110,13 @@ Home Content
 }
 
 .Column {
-    margin-left: 5px;
+    margin-left: 20px;
     float: left;
     background-repeat: no-repeat;
     width: 23%;
-    
 }
-        
+.content{
+    background-color: #999999;
+}
+/**************************************************************************/       
 
