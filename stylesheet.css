@@ -15,6 +15,8 @@ footer {
     color: #cccccc;
     padding-right: 10px;
 }
+
+/*navigation*/
 .navigation {
     margin: 0;
     padding: 0;
@@ -27,9 +29,14 @@ footer {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top:  380px;
     background: #003366;
 }
-
+/*.navigation:first-child
+{
+    margin-right:  400px;
+    position: 
+}*/
 .navigation li a {
     display: block;
     /*padding: 3px 8px;*/
@@ -39,7 +46,71 @@ footer {
 .navigation li a:hover {
     background-color:#FFCC00;
 }
+
 #Homeicone {
     width:5px;
     height: 5px;
 }
+/*
+Home Content 
+================================= */
+
+.fourColumn {
+    overflow: auto;
+    padding: 10px;
+}
+.fourColumn h4{
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.fourColumn h5
+{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px; 
+}
+.fourColumn p{
+    color: black;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+.fourColumn img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.fourColumn a{
+    color: black;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.fourColumn a:hover{
+    color: #FFB124;
+    text-decoration: none;
+}
+
+.Column {
+    margin-left: 5px;
+    float: left;
+    background-repeat: no-repeat;
+    width: 23%;
+    
+}
+        
+
