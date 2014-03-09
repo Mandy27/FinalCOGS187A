@@ -25,11 +25,9 @@ footer {
     font-weight: 300;
 }
 .navigation li {
+    height: 35px;
     list-style: none;
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top:  380px;
+    display: inline-block;
     background: #003366;
 }
 /*.navigation:first-child
@@ -38,12 +36,10 @@ footer {
     position: 
 }*/
 .navigation li a {
-    display: block;
-    /*padding: 3px 8px;*/
     color: #cccccc;
     text-decoration: none;
 }
-.navigation li a:hover {
+.navigation li:hover {
     background-color:#FFCC00;
 }
 
@@ -54,7 +50,11 @@ footer {
 /*
 Home Content 
 ================================= */
-
+#WelcomeMsg{
+    overflow: hidden;
+    border: 1px solid black;
+    height: 60px;
+}
 .fourColumn {
     overflow: auto;
     padding: 10px;
