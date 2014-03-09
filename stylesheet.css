@@ -1,3 +1,4 @@
+/************************HOME PAGE*******************************************/
 #Header-container{
     height: 400px;
     background-image: url('img/HomepageImage2.jpg');
@@ -22,11 +23,11 @@ footer {
     font-weight: 300;
 }
 .navigation li {
+    height: 100px;
     list-style: none;
     display: inline;
     background: #003366;
     margin: 10px;
-    height: 200px;
 }
 .navigation li a {
     color: #cccccc;
@@ -86,24 +87,29 @@ Home Content
 .fourColumn img{
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
+    width: 92%;
+    
 }
 .fourColumn a{
     color: black;
     font-size: 12px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-.fourColumn a:hover{
-    color: #FFB124;
+    
     text-decoration: none;
+}
+.fourColumn a h4:hover{
+    color:#FFCC00;
 }
 
 .Column {
-    margin-left: 5px;
+    margin-left: 20px;
     float: left;
     background-repeat: no-repeat;
     width: 23%;
-    
 }
-        
+.content{
+    background-color: #999999;
+}
+/**************************************************************************/       
 
