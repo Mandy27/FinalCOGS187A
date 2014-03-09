@@ -15,6 +15,7 @@ footer {
     color: #cccccc;
     padding-right: 10px;
 }
+
 /*navigation*/
 .navigation {
   margin: 0;
@@ -29,9 +30,14 @@ footer {
     display: inline;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top:  380px;
   background: #003366;
 }
-
+/*.navigation:first-child
+{
+    margin-right:  400px;
+    position: 
+}*/
 .navigation li a {
   display: block;
   /*padding: 3px 8px;*/
