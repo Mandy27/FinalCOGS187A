@@ -102,7 +102,7 @@ Home Content
     
     text-decoration: none;
 }
-.fourColumn a:hover{
+.fourColumn a h4:hover{
     color:#FFCC00;
 }
 
