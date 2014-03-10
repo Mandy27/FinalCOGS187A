@@ -186,6 +186,8 @@ Home Content
 .sub_nav h2{
     border: 1px solid;
     padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     background-color: #003366;
     opacity: 0.8;
     color: white;
