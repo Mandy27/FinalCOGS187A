@@ -10,8 +10,8 @@ body{
     background-color: #cccccc;
 }
 #Header-container{
-    height: 300px;
-    background-image: url('img/HomeImage2.jpg');
+    height: 325px;
+    background-image: url('img/HomeImage4.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -40,16 +40,16 @@ footer {
     font-weight: 300;
     display: inline-block;
     text-align: justify;
-    margin-left: 252px;
-    margin-top: 260px;
+    margin-left: 192px;
+    margin-top: 290px;
 }
 .navigation li {
-    height: 25px;
+    height: 20px;
     border: 1px solid #cccccc;
     list-style: none;
     background: #003366;
     float: left;
-    padding: 10px 35.5px 3px 35.5px;
+    padding: 10px 18.5px 3px 18.5px;
 }
 
 .navigation li a {
@@ -138,7 +138,7 @@ Home Content
     margin-top: 20px;
     float: left;
     background-repeat: no-repeat;
-    width: 23%;
+    width: 22.2%;
     height: 260px;
 }
 .Column img {
@@ -156,19 +156,19 @@ Home Content
     padding: 0;
     height: 1em;
     font-family: Lato, Arial, sans-serif;
+    font-size: 14px;
     font-weight: 300;
     text-align: justify;
-    margin-left: 0px;
-    margin-top: 0px;
     display: inline;
 }
 .sub_navigation li {
-    height: 25px;
+    height: 20px;
+    width:190.8px;
     border: 1px solid #cccccc;
     list-style: none;
     float: left;
-    padding: 10px 40px 3px 40px;
-    width:167.8px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     text-align: center;
     background-color: #999999;
     text-decoration: none;
