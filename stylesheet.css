@@ -184,11 +184,16 @@ Home Content
 }
 .sub_nav h2{
     border: 1px solid;
+    padding-left: 20px;
     background-color: #003366;
+    opacity: 0.8;
     color: white;
     clear: both;
+    font-size: 20px;
 }
-
+.sub_nav div a{
+    text-decoration: none;
+}
 .sub_nav a img{
     background-color: white;
     color: white;
@@ -197,7 +202,7 @@ Home Content
 }
 #Title {
     color: #003366;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
     border-bottom: 3px solid #003366;
     padding-top: 20px;
