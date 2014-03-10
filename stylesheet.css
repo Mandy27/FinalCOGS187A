@@ -215,3 +215,6 @@ Home Content
     overflow: hidden;
     margin-bottom: 15px;
 }
+#subCurrent {
+    border-bottom: 5px solid white;
+}
