@@ -16,6 +16,7 @@ footer {
     background: #003366;
     color: #cccccc;
     padding: 10px;
+    margin-top: 20px;
     clear: both;
 }
 
@@ -133,7 +134,7 @@ Home Content
     float: left;
     background-repeat: no-repeat;
     width: 23%;
-    height: 280px;
+    height: 260px;
 }
 .Column img {
     width: 150px;
@@ -217,4 +218,12 @@ Home Content
 }
 #subCurrent {
     border-bottom: 5px solid white;
+}
+.subColumn {
+    margin-left: 20px;
+    margin-top: 5px;
+    float: left;
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 200px;
 }
