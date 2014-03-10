@@ -1,4 +1,8 @@
 /************************HOME PAGE*******************************************/
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 #Header-container{
     height: 350px;
     background-image: url('img/HomepageImage.jpg');
