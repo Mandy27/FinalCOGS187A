@@ -72,6 +72,7 @@ Home Content
     overflow: hidden;
     border: 1px solid black;
     height: 60px;
+    text-align: center;
 }
 .fourColumn {
     overflow: auto;
@@ -128,13 +129,16 @@ Home Content
 
 .Column {
     margin-left: 20px;
+    margin-top: 20px;
     float: left;
     background-repeat: no-repeat;
     width: 23%;
+    height: 280px;
 }
 .Column img {
     width: 150px;
     height: 150px;
+    margin-bottom: 10px;
 }
 .Column h5 {
     color: #003366;
