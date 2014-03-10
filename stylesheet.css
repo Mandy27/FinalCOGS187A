@@ -15,6 +15,7 @@ footer {
     background: #003366;
     color: #cccccc;
     padding: 10px;
+    clear: both;
 }
 
 #siteMap{
@@ -174,28 +175,32 @@ Home Content
 }
 
 .suv_nav{
-    display: block;
+    display: inline;
 }
 .sub_nav h2{
     border: 1px solid;
     background-color: #003366;
-    color: white; 
+    color: white;
+    clear: both;
 }
+
 .sub_nav a img{
-    border: 1px solid;
-    background-color: #003366;
-    color: white; 
+    background-color: white;
+    color: white;
+    width: 150px;
+    height: 150px;
 }
 #Title {
     color: #003366;
     font-size: 25px;
     font-weight: 500;
     border-bottom: 3px solid #003366;
-    margin-top: 50px;
+    padding-top: 20px;
     overflow: hidden;
     clear: both;
 }
-.sub_nav div h2
-{
-    background-color: #003366;
+.subContent{
+    float: left;
+    display: inline;
+    overflow: hidden;
 }
