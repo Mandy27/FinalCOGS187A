@@ -197,7 +197,7 @@ Home Content
     opacity: 0.8;
     color: white;
     clear: both;
-    font-size: 20px;
+    font-size: 16px;
 }
 .sub_nav div a{
     text-decoration: none;
@@ -231,6 +231,6 @@ Home Content
     margin-top: 5px;
     float: left;
     background-repeat: no-repeat;
-    width: 23%;
+    width: 22.2%;
     height: 200px;
 }
