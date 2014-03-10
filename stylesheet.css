@@ -120,8 +120,8 @@ Home Content
     
     text-decoration: none;
 }
-.fourColumn a h4:hover{
-    color:#FFCC00;
+.fourColumn a h5:hover{
+    font-style: italic;
 }
 
 .Column {
@@ -133,6 +133,9 @@ Home Content
 .Column img {
     width: 150px;
     height: 150px;
+}
+.Column h5 {
+    color: #003366;
 }
 
 /**************************************************************************/  
