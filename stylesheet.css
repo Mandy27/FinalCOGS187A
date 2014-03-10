@@ -156,7 +156,7 @@ Home Content
     list-style: none;
     float: left;
     padding: 10px 40px 3px 40px;
-    width:13.51%;
+    width:167.8px;
     text-align: center;
     background-color: #999999;
     text-decoration: none;
@@ -192,6 +192,8 @@ Home Content
     font-weight: 500;
     border-bottom: 3px solid #003366;
     margin-top: 50px;
+    overflow: hidden;
+    clear: both;
 }
 .sub_nav div h2
 {
