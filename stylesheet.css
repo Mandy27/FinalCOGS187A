@@ -163,7 +163,7 @@ Home Content
 }
 
 .sub_navigation li a {
-    color: #cccccc;
+    color: white;
     text-decoration: none;
 }
 .sub_navigation li a:hover {
@@ -182,4 +182,15 @@ Home Content
     border: 1px solid;
     background-color: #003366;
     color: white; 
+}
+#Title {
+    color: #003366;
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 3px solid #003366;
+    margin-top: 50px;
+}
+.sub_nav div h2
+{
+    background-color: #003366;
 }
