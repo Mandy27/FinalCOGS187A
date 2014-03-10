@@ -6,6 +6,8 @@ body{
 #Header-container{
     height: 350px;
     background-image: url('img/HomepageImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
@@ -147,11 +149,13 @@ Home Content
     list-style: none;
     float: left;
     padding: 10px 40px 3px 40px;
-     width:13.51%;
+    width:13.51%;
     text-align: center;
     background-color: #999999;
     text-decoration: none;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 .sub_navigation li a {
