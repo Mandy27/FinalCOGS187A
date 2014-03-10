@@ -26,7 +26,7 @@ footer {
     font-weight: 300;
     display: inline-block;
     text-align: justify;
-    margin-left: 340px;
+    margin-left: 280px;
     margin-top: 360px;
 }
 .navigation li {
@@ -35,7 +35,7 @@ footer {
     list-style: none;
     background: #003366;
     float: left;
-    padding: 10px 20px 3px 20px;
+    padding: 10px 40px 3px 40px;
 }
 
 .navigation li a {
@@ -47,6 +47,9 @@ footer {
 }
 #Current {
     background: #FFCC00;
+    color: #003366;
+}
+#Current a{
     color: #003366;
 }
 #Homeicone {
@@ -132,7 +135,10 @@ Home Content
     width:16.6782%;
     text-align: center;
     background-color: #999999;
+    text-decoration: none;
     color: white;
+    float: left;
+    padding: 10px 20px 3px 20px;
 }
 .sub_navigation li a{
     color: white;
