@@ -42,10 +42,12 @@ footer {
     color: #cccccc;
     text-decoration: none;
 }
-.navigation li:hover {
-    background-color:#FFCC00;
+.navigation li a:hover {
+    color: #FFCC00;
 }
-
+#Current {
+    background: #FFCC00;
+}
 #Homeicone {
     width:5px;
     height: 5px;
