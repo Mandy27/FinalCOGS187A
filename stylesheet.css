@@ -47,6 +47,7 @@ footer {
 }
 #Current {
     background: #FFCC00;
+    color: #003366;
 }
 #Homeicone {
     width:5px;
@@ -121,4 +122,30 @@ Home Content
 }
 
 /**************************************************************************/       
-
+.sub_navigation {
+    margin-left: 0px;
+    margin-top: 0px;
+    display: inline;
+}
+.sub_navigation li {
+    width:16.6782%;
+    text-align: center;
+    background-color: #999999;
+    color: white;
+}
+.sub_navigation li a{
+    color: white;
+}
+.suv_nav{
+    display: block;
+}
+.sub_nav h2{
+    border: 1px solid;
+    background-color: #003366;
+    color: white; 
+}
+.sub_nav a img{
+    border: 1px solid;
+    background-color: #003366;
+    color: white; 
+}
