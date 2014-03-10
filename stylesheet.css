@@ -234,3 +234,13 @@ Home Content
     width: 22.2%;
     height: 200px;
 }
+.subColumn h5{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+}
+.Rate{
+    margin: 0px;
+    color: #FFCC00;
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+}
