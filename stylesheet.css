@@ -23,6 +23,7 @@ footer {
     padding: 10px;
     margin-top: 20px;
     clear: both;
+    font-size: 13px;
 }
 
 #siteMap{
@@ -59,6 +60,7 @@ footer {
 .navigation li a:hover {
     color: #FFCC00;
 }
+
 #Current {
     background: #FFCC00;
     color: #003366;
@@ -68,8 +70,7 @@ footer {
 }
 #Homeicone {
     width:5px;
-    height: 5px;
-    background-image: url('img/newhome3.png');
+    height: 3px;
 }
 /*
 Home Content 
@@ -241,6 +242,20 @@ Home Content
 }
 .Rate{
     margin: 0px;
-    color: #FFCC00;
+    color: #FFB700;
     text-shadow: 0 0 2px rgba(0,0,0,0.7);
 }
+
+.SitemapCol{
+    float: left;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.SitemapCol li{
+    list-style: circle;
+}
+.SitemapCol h3{
+    color: #003366;
+}
+
