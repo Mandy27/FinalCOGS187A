@@ -251,7 +251,6 @@ h2 {
     margin-top: 10px;
 }
 .subContent p{
-    border: 1px solid black;
     width: 720px;
     margin-left: 20px;
 }
@@ -287,7 +286,10 @@ h2 {
     padding-right: 50px;
 }
 .SitemapCol li{
-    list-style: circle;
+    list-style: none;
+    text-decoration: underline;
+    color: #003366;
+    
 }
 .SitemapCol h3{
     color: #003366;
