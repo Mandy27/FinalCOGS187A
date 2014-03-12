@@ -46,10 +46,10 @@ footer {
     display: inline-block;
     text-align: justify;
     margin-left: 200px;
-    margin-top: 265px;
+    margin-top: 260px;
 }
 .navigation li {
-    height: 20px;
+    height: 25px;
     border: 1px solid #cccccc;
     border-bottom-color: #003366;
     list-style: none;
@@ -57,6 +57,7 @@ footer {
     float: left;
     padding: 10px 20.9px 3px 20.9px;
     opacity: 0.8;
+    text-align: center;
 }
 
 .navigation li a {
@@ -66,17 +67,17 @@ footer {
 .navigation li a:hover {
     color: #FFCC00;
 }
-
+.navigation li img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
 #Current {
     background: #FFCC00;
     color: #003366;
 }
 #Current a{
     color: #003366;
-}
-#Homeicone {
-    width:5px;
-    height: 3px;
 }
 /*
 Home Content 
@@ -264,6 +265,7 @@ h2 {
 }
 .subContent img{
     margin-left: 50px;
+    border-radius: 10px;
 }
 #subCurrent {
     border-bottom: 5px solid white;
@@ -296,7 +298,7 @@ h2 {
 .SitemapCol li{
     list-style: none;
 }
-.SitemapCol li a{
+.SitemapCol a{
     text-decoration: none;
     color: #003366;
 }
@@ -309,5 +311,22 @@ h2 {
     padding: 0;
     margin-left: 40px;
 }
-
+/*
+Contact Page 
+================================= */
+#contact-container{
+    color: #003366;
+}
+#contact-container ol{
+    float: left;
+}
+#contact-container li{
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 70px;
+}
+#MessageForm{
+    clear: both;
+    margin-left: 50px;
+}
 
