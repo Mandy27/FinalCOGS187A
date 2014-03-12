@@ -31,7 +31,11 @@ footer {
     color: #cccccc;
     padding-right: 10px;
 }
-
+#contact{
+    float: right;
+    color: #cccccc;
+    padding-right: 10px;
+}
 /*navigation*/
 .navigation {
     margin: 0;
@@ -52,6 +56,7 @@ footer {
     background: #003366;
     float: left;
     padding: 10px 20.9px 3px 20.9px;
+    opacity: 0.8;
 }
 
 .navigation li a {
@@ -242,6 +247,9 @@ h2 {
     padding-top: 20px;
     overflow: hidden;
     clear: both;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 .subContent{
     float: left;
@@ -281,18 +289,25 @@ h2 {
 
 .SitemapCol{
     float: left;
-    margin-right: 100px;
-    padding-left: 100px;
-    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 5px;
+    text-align: left;
 }
 .SitemapCol li{
     list-style: none;
-    text-decoration: underline;
+}
+.SitemapCol li a{
+    text-decoration: none;
     color: #003366;
-    
+}
+.SitemapCol li a:hover{
+    text-decoration: underline;
 }
 .SitemapCol h3{
     color: #003366;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
 }
 
 
