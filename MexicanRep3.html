@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Beef and Rice Casserole</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Cuisine.html">By Cuisine</a> >> <a href="By_Cuisine.html#Mexican">Mexican</a>
+            </div>
+            <div id="Title">
+                <strong>Beef and Rice Casserole</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/MexCasserole.jpeg"><img src= "img/MexCasserole.jpeg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>1 lb ground beef
+                <br/>1 cup long grain rice
+                <br/>2 cups water
+                <br/>1 (16 ounce) jar salsa
+                <br/>1 (11 ounce) can mexicorn
+                <br/>1 teaspoon chili powder
+                <br/>1/2 teaspoon salt
+                <br/>1 cup cheddar cheese
+
+                <!--Read more at: http://www.food.com/recipe/mexican-rice-casserole-167348 -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Place the 2 cups of water and long grain rice in a medium sauce pan and bring to a boil. Reduce heat
+                    to a simmer, place a lid on, set timer for 20 minutes and cook rice until done.
+                    <br/><br/>
+                    Preheat oven to 350°F.
+                    <br/><br/>
+                    In a skillet, brown ground beef and drain. Place in a large mixing bowl.
+                    <br/><br/>
+                    In large mixing bowl, add the jar of salsa to the ground beef. Also add chili powder, Mexicorn, rice and salt. 
+                    Mix with a wooden spoon until combined well.
+                    <br/><br/>
+                    Spray a 2 quart casserole dish. Put rice mixture into dish. Cover with a lid or foil and bake in preheated oven 
+                    for 30 minutes.
+                    <br/><br/>
+                    At 30 minutes, take off lid/foil. Add shredded cheddar cheese evenly over top and bake for an additional 5 minutes.
+
+
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
