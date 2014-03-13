@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Beef With Broccoli</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="healthychoice.html">Gluten-Free</a> >> <a href="healthychoice.html#GlutenFree">Gluten-Free</a>
+            </div>
+            <div id="Title">
+                <strong>Curried Rice with Shrimp</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/CurriedRicewShrimp.jpg"><img src= "img/CurriedRicewShrimp.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>1 tablespoon olive oil
+                <br/>1 large onion, chopped
+                <br/>2 carrots, chopped
+                <br/>2 cloves garlic, chopped
+                <br/>2 teaspoons curry powder
+                <br/>1 cup long-grain white rice
+                <br/>kosher salt and black pepper
+                <br/>1 1/2 pounds peeled and deveined large shrimp
+                <br/>1/2 cup fresh basil
+
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Heat the oil in a large skillet over medium heat. Add the onion and carrots and cook, 
+		                stirring occasionally, until soft, 6 to 8 minutes. 
+                    <br/><br/>
+		                Add the garlic and curry powder and cook, stirring, until fragrant, 2 minutes.
+                    <br/><br/>
+		                Add the rice, 2½ cups water, and ½ teaspoon each salt and pepper and bring to a boil. Reduce heat 
+		                and simmer, covered, for 15 minutes. 
+                    <br/><br/>
+		                Season the shrimp with ½ teaspoon salt and ¼ teaspoon pepper. Nestle them in the partially cooked 
+		                rice. Cover and cook until the shrimp are opaque throughout, 4 to 5 minutes. Fold in the basil. 
+		                <br/><br/>
+
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
