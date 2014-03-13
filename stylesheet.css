@@ -364,3 +364,11 @@ span{
     margin-right: 50px;
     text-align: justify;
 }
+#dir {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #003366
+}
+#dir a{
+    color: #003366;
+}
