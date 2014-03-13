@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Macadamia Nut-Pesto Fettuccine</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="healthychoice.html">Vegetarian</a> >> <a href="healthychoice.html#Vegetarian">Vegetarian</a>
+            </div>
+            <div id="Title">
+                <strong>Macadamia Nut-Pesto Fettuccine</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/VegPesto.jpg"><img src= "img/VegPesto.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/> <!-- leave blank -->
+                <br/> 1 (9-ounce) package fresh fettuccine
+                <br/>3 cups fresh basil leaves
+                <br/>1/4 cup half-and-half
+                <br/>3 tablespoons roasted macadamia nuts
+                <br/>3 tablespoons grated fresh Parmesan cheese
+                <br/>2 tablespoons fresh lemon juice
+                <br/>3/4 teaspoon salt
+                <br/>1/2 teaspoon freshly ground black pepper
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Cook pasta according to package directions, omitting salt and fat.
+                    <br/><br/>
+                    While pasta cooks, place basil and remaining ingredients in a food processor; process until smooth. 
+                    <br/><br/>
+                    Combine basil mixture and pasta in a large bowl, tossing to coat.
+
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
