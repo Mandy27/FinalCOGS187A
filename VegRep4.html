@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Arugula Pizza with Poached Eggs</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="healthychoice.html">Vegetarian</a> >> <a href="healthychoice.html#Vegetarian">Vegetarian</a>
+            </div>
+            <div id="Title">
+                <strong>Arugula Pizza with Poached Eggs</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/VegPizza.jpg"><img src= "img/VegPizza.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/> <!-- leave blank -->
+                <br/>1 (11-ounce) package refrigerated pizza crust dough (such as Pillsbury Thin Pizza Crust)
+                <br/>Cooking spray
+                <br/>1/2 cup part-skim ricotta cheese
+                <br/>1/2 cup (2 ounces) shaved fresh Romano cheese, divided
+                <br/>1 tablespoon white vinegar
+                <br/>6 large eggs
+                <br/>1 (5-ounce) package baby arugula
+                <br/>4 teaspoons extra-virgin olive oil
+                <br/>1/2 teaspoon grated fresh lemon rind
+                <br/>1 tablespoon fresh lemon juice
+                <br/>1/8 teaspoon salt
+                <br/>1/4 teaspoon freshly ground black pepper
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Preheat oven to 450°.
+                    <br/><br/>
+                    Unroll pizza dough on a baking sheet lightly coated with cooking spray; place in preheating oven. 
+                    Bake as oven heats for 7 minutes.
+                    <br/><br/>
+                    Combine the ricotta and 1/4 cup Romano. Remove pan from oven. Quickly spread cheese mixture over dough, 
+                    leaving a 1/2-inch border around the edges. Return pan to oven, and bake for 5 minutes.
+                    <br/><br/>
+                    While pizza bakes, add water to a large skillet, filling two-thirds full; bring to a boil. Reduce heat; 
+                    simmer. Add vinegar. Break each egg into a custard cup, and pour gently into pan. Cook 3 minutes or 
+                    until desired degree of doneness. Carefully remove eggs from pan using a slotted spoon.
+                    <br/><br/>
+                    Combine arugula, remaining 1/4 cup Romano cheese, and the next 4 ingredients (through salt) in a large 
+                    bowl; toss well. Top pizza with arugula mixture and eggs; sprinkle with pepper. Cut into 6 pieces.
+
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
