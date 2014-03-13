@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>P.F.Chang's Mongolian Beef</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>   
+                    </li>
+                    <li>
+                        <a href="wheretobuy.html">Where To Buy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="Title">
+                <strong>P.F.Chang's Mongolian Beef</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/mongolian beef.jpg"><img src= "img/mongolian beef.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>2 teaspoons vegetable oil
+                <br/>1/2 teaspoon ginger, minced
+                <br/>1 tablespoon garlic, chopped
+                <br/>1/2 cup soy sauce
+                <br/>1/2 cup water
+                <br/>3/4 cup dark brown sugar
+                <br/>Vegetable oil, for frying	 (about 1 cup)
+                <br/>1 lb flank steak
+                <br/>1/4 cup cornstarch
+                <br/>2 large green onions, sliced on the diagonal into one-inch lengths
+                <!--Read more at: http://www.food.com/recipe/p-f-changs-mongolian-beef-66121?oc=linkback -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Make the sauce by heating 2 tsp of vegetable oil in a medium
+                    saucepan over med/low heat.
+                    <br/><br/>
+                    Don't get the oil too hot.
+                    <br/><br/>
+                    Add ginger and garlic to the pan and quickly add the soy sauce
+                    and water before the garlic scorches.
+                    <br/><br/>
+                    Dissolve the brown sugar in the sauce, then raise the heat to
+                    about medium and boil the sauce for 2-3 minutes or until the
+                    sauce thickens.
+                    <br/><br/>
+                    Remove it from the heat.
+                    <br/><br/>
+                    Slice the flank steak against the grain into 1/4" thick
+                    bite-size slices (Tilt the blade of your knife at about a forty
+                    five degree angle to the top of the steak so that you get wider cuts).
+                    <br/><br/>
+                    Dip the steak pieces into the cornstarch to apply a very thin
+                    dusting to both sides of each piece of beef.
+                    <br/><br/>
+                    Let the beef sit for about 10 minutes so that the cornstarch
+                    sticks.
+                    <br/><br/>
+                    As the beef sits, heat up one cup of oil in a wok (you may
+                    also use a skillet for this step as long as the beef will
+                    be mostly covered with oil).
+                    <br/><br/>
+                    Heat the oil over medium heat until it's nice and hot, but
+                    not smoking.
+                    <br/><br/>
+                    Add the beef to the oil and saute for just two minutes, or
+                    until the beef just begins to darken on the edges.
+                    <br/><br/>
+                    You don't need a thorough cooking here since the beef is
+                    going to go back on the heat later.
+                    <br/><br/>
+                    Stir the meat around a little so that it cooks evenly.
+                    <br/><br/>
+                    After a couple minutes, use a large slotted spoon to take
+                    the meat out and onto paper towels, then pour the oil out
+                    of the wok or skillet.
+                    <br/><br/>
+                    Put the pan back over the heat, dump the meat back into it
+                    and simmer for one minute.
+                    <br/><br/>
+                    Add the sauce, cook for one minute while stirring, then add
+                    all the green onions.
+                    <br/><br/>
+                    Cook for one more minute, then remove the beef and onions
+                    with tongs or a slotted spoon to a serving plate.
+                    <br/><br/>
+                    Leave the excess sauce behind in the pan.
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>

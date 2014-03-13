@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Beef With Broccoli</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>   
+                    </li>
+                    <li>
+                        <a href="wheretobuy.html">Where To Buy</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="Title">
+                <strong>Beef With Broccoli</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/ChineseBeefWithBrocoli.jpeg"><img src= "img/ChineseBeefWithBrocoli.jpeg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>2 tablespoons cornstarch
+                <br/>4 tablespoons soy sauce
+                <br/>2 teaspoons sugar
+                <br/>5 tablespoons peanut oil
+                <br/>1 pound flank steak, thinly sliced against the grain
+                <br/>1 tablespoon oyster sauce
+                <br/>1 1/4 cups low-sodium chicken broth
+                <br/>4 thin slices peeled ginger
+                <br/>1 head broccoli, cut into florets
+                <br/>1 large onion, halved and sliced 1/2 inch thick
+                <br/>3 plum tomatoes, quartered lengthwise
+                <br/>2 cloves garlic, minced
+                <br/>Cooked white rice, for serving (optional)
+                <!--Read more at: http://www.foodnetwork.com/recipes/food-network-kitchens/chinese-beef-with-broccoli-recipe.html?oc=linkback -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Whisk 1 tablespoon cornstarch, 3 tablespoons soy sauce, 1 teaspoon
+                    sugar and 1 tablespoon peanut oil in a large bowl. Add the steak
+                    and toss to coat; refrigerate until ready to cook.
+                    <br/><br/>
+                    Whisk the remaining 1 tablespoon each cornstarch and soy sauce,
+                    the oyster sauce and chicken broth in a small bowl; set aside.
+                    <br/><br/>
+                    Heat 1 tablespoon peanut oil in a large skillet over high heat.
+                    Add the ginger, broccoli and the remaining 1 teaspoon sugar and
+                    stir-fry 3 to 4 minutes; transfer to a plate. Heat 1 more tablespoon
+                    peanut oil in the skillet, add the onion and stir-fry 2 to 3 minutes.
+                    Add the tomatoes and cook, turning gently, 2 minutes. Transfer
+                    the onion and tomatoes to the plate with the broccoli.
+                    <br/><br/>
+                    Reduce the heat to medium high; add the remaining 2 tablespoons
+                    peanut oil to the skillet. Add the garlic and steak and stir-fry
+                    1 minute. Whisk the sauce mixture, then add to the skillet and
+                    simmer 1 minute. Return the vegetables to the skillet; cook until
+                    the meat is cooked through, 3 to 4 minutes. Serve with rice, if
+                    desired.
+                    <br/><br/>
+                    Per serving: Calories 404; Fat 24 g (Saturated 6 g); Cholesterol
+                    45 mg; Sodium 1,055 mg; Carbohydrate 18 g; Fiber 4 g; Protein 30 g
+                    <br/><br/>
+                    Photograph by Antonis Achilleos
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
