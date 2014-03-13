@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Chicken Tortilla Soup</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li id="Current" >
+                        <a href="index.html"><img src="img/newhome.png"/></a>
+                    </li>
+                    <li>
+                        <a href="Recipes.html">Recipes</a>
+                    </li>
+                    <li>
+                        <a href="healthyChoices.html">Healthy Choices</a>
+                    </li>	
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Cuisine.html">By Cuisine</a> >> <a href="By_Cuisine.html#Mexican">Mexican</a>
+            </div>
+            <div id="Title">
+                <strong>Chicken Tortilla Soup</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/MexChickenSoup.jpeg"><img src= "img/MexChickenSoup.jpeg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>2 teaspoons olive oil
+                <br/>1 medium onion, chopped
+                <br/>4 garlic cloves, minced
+                <br/>1 medium jalapeno pepper, chopped
+                <br/>1/2 medium green pepper
+                <br/>4 small, boneless, skinless chicken breasts
+                <br/>2 cups frozen corn
+                <br/>1/2 cup dry white wine or water
+                <br/>2 teaspoons cumin
+                <br/>1 teaspoon chili powder
+                <br/>1/4 teaspoon cayenne pepper
+                <br/>4 (14 ounce) cans chicken broth
+                <br/>2 (14 ounce) cans diced tomatoes
+                <br/>2 (8 ounce) cans tomato sauce
+                <br/>1 cup tortilla chips (optional)
+                <!--Read more at: http://www.food.com/recipe/amazing-chicken-tortilla-soup-108231 -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Sauté onion, garlic, jalapeño and green pepper with olive oil in a large pot until soft.
+                    <br/><br/>
+                    Add all the rest of the ingredients to the large pot and bring to a boil.
+                    <br/><br/>
+                    After about 15 minutes, remove the chicken breasts and shred (Two forks work well to pull the chicken apart!).
+                    <br/><br/>
+                    Return shredded chicken to the pot and simmer an additional 45 minutes.
+                    <br/><br/>
+                    Serve, topped with strips of tortilla chips if desired.
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
