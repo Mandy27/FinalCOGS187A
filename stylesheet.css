@@ -72,6 +72,23 @@ footer {
     height: 25px;
     margin-bottom: 10px;
 }
+.navigation li li a{
+    color: #003366;
+}
+.navigation li ul {
+    display: none;
+    width: 13em;
+    background-color: #FFCC00;
+    opacity: 0.8;
+    color: #003366;
+}
+.navigation li:hover ul{
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
 #Current {
     background: #FFCC00;
     color: #003366;
@@ -364,45 +381,7 @@ span{
     margin-right: 50px;
     text-align: justify;
 }
-/*Drop down menu for navigation bar*/
 
-
-.navigation li {
-    list-style: none;
-    float: left;
-}
-
-/*.navigation li ul li{
-    padding: 10px;
-    margin: 0px;
-    display: block;
-    border-bottom:  1px solid black;
-}*/
-
-.navigation li ul li:hover{
-    background:#FFCC00;
-}
-
-.navigation li ul {
-	display: none; 
-	/*width: 10em; */
-	background-color: #0027Af;
-        }
-	
-.navigation li:hover ul {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0;
-        }
-.navigation li:hover li {
-	float: none;
-        }
-/*.navigation li:hover li a {
-	background-color: #0027Af;
-	border-bottom: 1px solid #fff;
-	color: #000;
-        }*/
 #dir {
     margin-left: 50px;
     margin-top: 20px;
