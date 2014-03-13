@@ -403,3 +403,12 @@ span{
 	border-bottom: 1px solid #fff;
 	color: #000;
         }*/
+#dir {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #003366
+}
+#dir a{
+    color: #003366;
+}
+
