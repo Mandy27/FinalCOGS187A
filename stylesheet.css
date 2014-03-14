@@ -47,6 +47,7 @@ footer {
     text-align: justify;
     margin-left: 120px;
     margin-top: 263px;
+    
 }
 
 .navigation li {
@@ -59,6 +60,7 @@ footer {
     float: left;
     opacity: 0.9;
     text-align: center;
+    
 }
 
 .navigation li a {
@@ -91,6 +93,8 @@ footer {
 .navigation li:hover li {
     float: none;
     color: #FFCC00;
+    margin-top: -2px;
+    text-align: center;
 }
 
 .navigation li li:hover {
@@ -100,6 +104,14 @@ footer {
 .navigation li li a:hover {
     color: #003366;
     
+}
+.navigation li a:hover {
+    color: #FFCC00;
+}
+.navigation li img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
 }
 
 .navigation li img{
