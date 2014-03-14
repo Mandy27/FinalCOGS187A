@@ -351,11 +351,13 @@ h2 {
 .SitemapCol{
     float: left;
     margin-left: 50px;
-    margin-right: 5px;
+    margin-right: 0px;
+    margin-bottom: 70px;
     text-align: left;
 }
 .SitemapCol li{
     list-style: none;
+    margin-bottom: 10px;
 }
 .SitemapCol a{
     text-decoration: none;
@@ -366,7 +368,7 @@ h2 {
 }
 .SitemapCol h3{
     color: #003366;
-    margin: 0;
+    margin-top: 50px;
     padding: 0;
     margin-left: 40px;
 }
