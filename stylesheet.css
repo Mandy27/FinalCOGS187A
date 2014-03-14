@@ -104,10 +104,13 @@ footer {
     background-color: #FFCC00;
     color: #003366;
 }
-.navigation li li a:hover {
+.navigation li li:hover a{
+    color: #003366;
+}
+/*.navigation li li a:hover {
     color: #003366;
     
-}
+}*/
 .navigation li a:hover {
     color: #FFCC00;
 }
@@ -136,6 +139,9 @@ footer {
 }
 #Current ul li a{
     color: #cccccc;
+}
+#Current ul li:hover a{
+    color: #003366;
 }
 #subCurrent {
     border-bottom: 5px solid white;
