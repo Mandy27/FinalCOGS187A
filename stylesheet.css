@@ -434,4 +434,37 @@ span{
 #dir a{
     color: #003366;
 }
+/*****Three slope*************/
+.ThreeSlopes {
+    overflow: auto;
+    padding: 10px;
+    display: inline;
+    padding-left: 1150px
 
+}
+
+.SlopeOne{
+    margin-left: 50px;
+    float: left;
+    width: 25%;
+    display: inline;
+}
+.Slope {
+    margin-left: 65px;
+    float: left;
+    width: 25%;
+    display: inline;
+}
+
+.Slope iframe {
+    width: 275px;
+    height: 250px;
+    display: inline;
+}
+.SlopeOne iframe {
+    width: 275px;
+    height: 250px;
+    display: inline;
+}
+
+/*****************************/
