@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>French Potato Salad</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Cuisine.html">By Cuisine</a> >> <a href="By_Cuisine.html#Chinese">French</a>
+            </div>
+            <div id="Title">
+                <strong>French Potato Salad</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/PotatoSalad.jpg"><img src= "img/PotatoSalad.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>1 pound small white boiling potatoes
+                <br/>1 pound small red boiling potatoes
+                <br/>2 tablespoons good dry white wine
+                <br/>2 tablespoons chicken stock
+                <br/>3 tablespoons Champagne vinegar
+                <br/>1/2 teaspoon Dijon mustard
+                <br/>2 teaspoons kosher salt
+                <br/>3/4 teaspoon freshly ground black pepper
+                <br/>10 tablespoons good olive oil
+                <br/>1/4 cup minced scallions (white and green parts)
+                <br/>2 tablespoons minced fresh dill
+                <br/>2 tablespoons minced flat-leaf parsley
+                <br/>2 tablespoons julienned fresh basil leaves
+                <!--Read more at: http://www.foodnetwork.com/recipes/ina-garten/french-potato-salad-recipe.html#lightbox-recipe-video?oc=linkbac-->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Drop the white and red potatoes into a large pot of boiling salted water and cook for 20 to 30 minutes, until they are just cooked through. 
+                    <br/><br/>
+                    Drain in a colander and place a towel over the potatoes to allow them to steam for 10 more minutes.
+                    <br/><br/>
+                    As soon as you can handle them, cut in 1/2 (quarters if the potatoes are larger) and place in a medium bowl. Toss gently with the wine and chicken stock. Allow the liquids to soak into the warm potatoes before proceeding.
+                    <br/><br/>
+                    Combine the vinegar, mustard, 1/2 teaspoon salt, and 1/4 teaspoon pepper and slowly whisk in the olive oil to make an emulsion.
+                    <br/><br/>
+                    Add the vinaigrette to the potatoes. Add the scallions, dill, parsley, basil, 1 1/2 teaspoons salt, and 1/2 teaspoon pepper and toss. Serve warm or at room temperature.
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>

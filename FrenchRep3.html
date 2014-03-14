@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>French Creamed Chicken and Noodle Soup</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Cuisine.html">By Cuisine</a> >> <a href="By_Cuisine.html#Chinese">French</a>
+            </div>
+            <div id="Title">
+                <strong>French Potato Salad</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/chickennoodlesoup.jpg"><img src= "img/chickennoodlesoup.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>2 tablespoons butter
+                <br/>1 leek, including 1-inch of green, cleaned and finely diced
+                <br/>1 Granny Smith apple, peeled and finely diced
+                <br/>2 tablespoons Calvados
+                <br/>1 tablespoon cider vinegar
+                <br/>3 cups chicken broth
+                <br/>1 cup authentic apple cider
+                <br/>12 ounces boneless, skinless chicken breast
+                <br/>2 cups fine egg noodles (dry)
+                <br/>1/2 cup heavy cream
+                <br/>1/4 cup grated Gruyere (optional)
+                <br/>Salt and freshly ground black pepper
+                <br/>Snipped chives, for garnish
+                <!--Read more at: http://www.foodnetwork.com/recipes/french-creamed-chicken-and-noodle-soup-recipe.html?oc=linkback-->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Heat butter in a saucepan. Add leeks and Granny Smith apple, cover and simmer until tender, for about 5 minutes.
+                    <br/><br/>
+                    Add the Calvados and reduce until almost evaporated. Stir in the cider vinegar, broth, apple cider and bring to a simmer.
+                    <br/><br/>
+                    Add the chicken and egg noodles to the broth, cover and cook until the chicken is cooked through, about 5 minutes. 
+                    <br/><br/>
+                    Skim off any fat which is floating to the surface, stir in the heavy cream, optional Gruyere and season, to taste, with salt and pepper. Garnish with chives.
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
