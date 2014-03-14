@@ -46,12 +46,12 @@ footer {
     display: inline-block;
     text-align: justify;
     margin-left: 120px;
-    margin-top: 263px;
+    margin-top: 258px;
 }
 
 .navigation li {
     width: 150px;
-    height: 35px;
+    height: 40px;
     border: 1px solid #cccccc;
     border-bottom-color: #003366;
     list-style: none;
@@ -70,12 +70,11 @@ footer {
 }
 .navigation li li{
     background: #003366;
+    color: #cccccc;
     opacity: 1.0;
 }
 .navigation li li a{
-    color: #CCCCCC;
     font-size: 14px;
-    font-weight: bold;
 }
 .navigation li ul {
     display: none;
@@ -91,6 +90,7 @@ footer {
 .navigation li:hover li {
     float: none;
     color: #FFCC00;
+    color: #003366;
 }
 
 .navigation li li:hover {
