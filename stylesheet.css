@@ -441,7 +441,13 @@ span{
     padding: 10px;
     display: inline;
     padding-left: 1150px
-
+}
+.ThreeSlopes a{
+    color: #003366;
+    text-decoration: none;
+    text-align: center;
+}
+.ThreeSlopes a:hover{
 }
 
 .SlopeOne{
