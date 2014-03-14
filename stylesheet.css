@@ -45,18 +45,8 @@ footer {
     font-weight: 300;
     display: inline-block;
     text-align: justify;
-<<<<<<< HEAD
     margin-left: 120px;
     margin-top: 263px;
-=======
-<<<<<<< HEAD
-    margin-left: 120px;
-    margin-top: 263px;
-=======
-    margin-left: 200px;
-    margin-top: 260px;
->>>>>>> parent of 76d0d23... navigation done
->>>>>>> FETCH_HEAD
 }
 
 .navigation li {
@@ -103,16 +93,13 @@ footer {
     color: #FFCC00;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
 .navigation li li:hover {
     background-color: #FFCC00;
     color: #003366;
 }
 .navigation li li a:hover {
     color: #003366;
+    
 }
 
 .navigation li img{
@@ -122,8 +109,6 @@ footer {
 }
 
 /***********/
-=======
->>>>>>> parent of 76d0d23... navigation done
 #Current {
     background: #FFCC00;
     color: #003366;
