@@ -95,8 +95,7 @@ footer {
 }
 .navigation li:hover li {
     float: none;
-    color: #FFCC00;
-    margin-top: -2px;
+    position: relative;
     text-align: center;
     color: #003366;
 }
