@@ -69,11 +69,11 @@ footer {
     margin-bottom: 10px;
 }
 .navigation li li{
-    background: #FFCC00;
+    background: #003366;
     opacity: 1.0;
 }
 .navigation li li a{
-    color: #003366;
+    color: #CCCCCC;
     font-size: 14px;
     font-weight: bold;
 }
@@ -86,7 +86,6 @@ footer {
     position: absolute;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     color: #FFCC00;
 }
 .navigation li:hover li {
@@ -95,11 +94,11 @@ footer {
 }
 
 .navigation li li:hover {
-    background-color: #003366;
-    color: #FFCC00;
+    background-color: #FFCC00;
+    color: #003366;
 }
 .navigation li li a:hover {
-    color: #FFCC00;
+    color: #003366;
 }
 
 .navigation li img{
@@ -107,33 +106,7 @@ footer {
     height: 25px;
     margin-bottom: 10px;
 }
-/*Drop down menu for navigation bar*/
-.navigation li ul li:hover{
-    background:#FFCC00;
-}
-.navigation li ul li{
-    width: 10em;
-    position: relative;
-    background: #003366;
-    color: #ffcc00;
-    margin: 0px;
-}
 
-.navigation li ul {
-	display: none; 
-	/*width: 10em; */
-	background-color: #0027Af;
-        }
-	
-.navigation li:hover ul {
-	display: block;
-	position: absolute;
-	margin-left: 30px;
-	padding: 0;
-        }
-.navigation li:hover li {
-	float: none;
-        }
 /***********/
 #Current {
     background: #FFCC00;
