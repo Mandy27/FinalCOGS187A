@@ -46,12 +46,8 @@ footer {
     display: inline-block;
     text-align: justify;
     margin-left: 120px;
-<<<<<<< HEAD
-    margin-top: 263px;
-    
-=======
+   /* margin-top: 263px;*/
     margin-top: 258px;
->>>>>>> FETCH_HEAD
 }
 
 .navigation li {
@@ -78,6 +74,10 @@ footer {
     background: #003366;
     color: #cccccc;
     opacity: 1.0;
+}
+.navigation li  li:first-child{
+    
+    margin-top: 3px;
 }
 .navigation li li a{
     font-size: 14px;
