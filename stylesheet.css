@@ -59,8 +59,7 @@ footer {
     background: #003366;
     float: left;
     opacity: 0.9;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .navigation li a {
@@ -119,13 +118,6 @@ footer {
     height: 25px;
     margin-bottom: 10px;
 }
-
-.navigation li img{
-    width: 25px;
-    height: 25px;
-    margin-bottom: 10px;
-}
-
 
 /***********/
 #Current {
