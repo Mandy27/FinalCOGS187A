@@ -50,14 +50,14 @@ footer {
 }
 
 .navigation li {
-    width: 150px;
+    width: 130px;
     height: 35px;
     border: 1px solid #cccccc;
     border-bottom-color: #003366;
     list-style: none;
     background: #003366;
     float: left;
-    opacity: 0.9;
+    opacity: 0.8;
     text-align: center;
 }
 
@@ -74,8 +74,7 @@ footer {
 }
 .navigation li li a{
     color: #003366;
-    font-size: 14px;
-    font-weight: bold;
+
 }
 .navigation li ul {
     display: none;
@@ -286,7 +285,8 @@ h2 {
     padding-left: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
-    background-color: #003c66;
+    background-color: #003366;
+    opacity: 0.8;
     color: white;
     clear: both;
     font-size: 16px;
@@ -308,6 +308,7 @@ h2 {
     font-weight: 500;
     border-bottom: 3px solid #003366;
     padding-top: 20px;
+    overflow: hidden;
     clear: both;
     margin-left: 50px;
     margin-right: 50px;
