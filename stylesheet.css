@@ -127,10 +127,21 @@ footer {
 /***********/
 #Current {
     background: #FFCC00;
-    color: #003366;
+    /*color: #003366;*/
+    color: white;
 }
 #Current a{
     color: #003366;
+    /*color: #cccccc;*/
+}
+#Current ul li a{
+    color: #cccccc;
+}
+#subCurrent {
+    border-bottom: 5px solid white;
+}
+#subCurrent a {
+    color:#003366;
 }
 /*
 Home Content 
@@ -319,9 +330,7 @@ h2 {
     margin-left: 50px;
     border-radius: 10px;
 }
-#subCurrent {
-    border-bottom: 5px solid white;
-}
+
 .subColumn {
     margin-left: 20px;
     margin-top: 5px;
