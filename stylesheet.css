@@ -45,8 +45,13 @@ footer {
     font-weight: 300;
     display: inline-block;
     text-align: justify;
+<<<<<<< HEAD
+    margin-left: 120px;
+    margin-top: 263px;
+=======
     margin-left: 200px;
     margin-top: 260px;
+>>>>>>> parent of 76d0d23... navigation done
 }
 .navigation li {
     height: 25px;
@@ -59,7 +64,7 @@ footer {
     opacity: 0.8;
     text-align: center;
 }
-/*
+
 .navigation li a {
     color: #cccccc;
     text-decoration: none;
@@ -89,7 +94,7 @@ footer {
     padding: 0;
 }
 
-
+<<<<<<< HEAD
 .navigation li li:hover {
     background-color: #003366;
     color: #FFCC00;
@@ -97,7 +102,7 @@ footer {
 .navigation li li a:hover {
     color: #FFCC00;
 }
-*/
+
 .navigation li img{
     width: 25px;
     height: 25px;
@@ -131,6 +136,8 @@ footer {
 	float: none;
         }
 /***********/
+=======
+>>>>>>> parent of 76d0d23... navigation done
 #Current {
     background: #FFCC00;
     color: #003366;
