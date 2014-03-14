@@ -442,12 +442,14 @@ span{
     display: inline;
     padding-left: 1150px
 }
-.ThreeSlopes a{
+.ThreeSlopes a h5{
+    margin-top: 5px;
+    font-size: 15px;
     color: #003366;
     text-decoration: none;
-    text-align: center;
 }
 .ThreeSlopes a:hover{
+    text-decoration: underline;
 }
 
 .SlopeOne{
