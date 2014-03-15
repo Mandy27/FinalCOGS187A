@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Hot-and-sour chicken noodle soup</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#ChineseNewYear">Chinese New Year</a>
+            </div>
+            <div id="Title">
+                <strong>Hot-and-sour chicken noodle soup</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/hot-and-sour chicken noodle soup.jpg"><img src= "img/hot-and-sour chicken noodle soup.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>140g dried wholewheat noodles
+                <br/>1 tbsp groundnut oil
+                <br/>2 tbsp grated ginger
+                <br/>1 medium red chilli, deseeded and finely chopped
+                <br/>4 skinless, boneless chicken thighs, chopped into small chunks
+                <br/>1 tbsp Shaohsing rice wine
+                <br/>700ml hot vegetable stock
+                <br/>4 chestnut mushrooms, sliced
+                <br/>1 tsp dark soy sauce
+                <br/>2 tbsp light soy sauce
+                <br/>2 tbsp rice vinegar
+                <br/>1 tbsp cornflour mixed with 2 tbsp cold water to make a paste
+                <br/>1 handful beansprouts
+                <br/>2 spring onions, sliced
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Bring a small pan of water to the boil and cook the noodles following pack instructions. Drain, rinse under cold running water to stop them cooking further, then drizzle over a little oil to prevent them sticking together. Divide between 2 deep bowls.
+                    <br/><br/>
+                    Heat a wok over high heat and add the rest of the oil. When it starts to smoke, add the ginger and chilli, then stir-fry for a few secs. Add the chicken and stir-fry for 2 mins. As the meat starts to turn brown, add the rice wine and cook for 3 mins more. Add the vegetable stock, bring to a simmer, then add the mushrooms. Season with the dark soy, light soy and rice vinegar.
+                    <br/><br/>
+                    Bring back to a simmer, then add the cornflour paste. Simmer and stir until thickened. Stir in the beansprouts and most of the spring onions, then ladle the soup over the noodles. Serve immediately, scattered with the remaining spring onions.
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Stir-fried noodles</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#ChineseNewYear">Chinese New Year</a>
+            </div>
+            <div id="Title">
+                <strong>Stir-fried noodles</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/Chinese-Stir-Fried-Noodles.jpg"><img src= "img/Chinese-Stir-Fried-Noodles.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>150g pack medium egg noodles
+                <br/>1 tbsp vegetable oil
+                <br/>2 1/2 cm piece fresh ginger, finely chopped
+                <br/>2 garlic cloves, finely chopped
+                <br/>1 large carrot, cut into matchsticks
+                <br/>1 yellow pepper, deseeded and thinly sliced
+                <br/>100g mangetout, sugarsnaps or frozen peas
+                <br/>2 spring onions, finely chopped
+                <br/>85g beansprouts (optional)
+                <br/>2 tbsp soy sauce
+                <br/>1 tsp white wine vinegar
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Garnish Suggestions: toasted coconut, crushed peanuts, and/or fresh mint sprigs or cilantro.
+                    <br/><br/>
+                    Meanwhile, heat the oil in a wok or large frying pan, then stir-fry the ginger, garlic, carrot, pepper and mangetout, sugar snap or frozen peas over a high heat for 2-3 mins.
+                    <br/><br/>
+                    Drain the noodles thoroughly, add to the pan with the onions and beansprouts, if using, then stir-fry for 2 mins.
+                    <br/><br/>
+                    Mix together the soy sauce and vinegar, stir into the pan, then cook for 1-2 mins. Divide between individual plates or bowls and serve immediately.
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
