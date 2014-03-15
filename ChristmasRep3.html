@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Meatballs and Gravy</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#Christmas">Christmas</a>
+            </div>
+            <div id="Title">
+                <strong>Meatballs and Gravy</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/Meatballs.jpg"><img src= "img/Meatballs.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>1/2 cup milk
+                <br/>1 tablespoon cornstarch
+                <br/>1 medium onion, finely chopped
+                <br/>1 teaspoon salt
+                <br/>Dash pepper
+                <br/>1/4 teaspoon ground nutmeg
+                <br/>1/4 teaspoon ground allspice
+                <br/>1/4 teaspoon ground ginger
+                <br/>1-1/2 pounds lean ground beef (90% lean)
+                <br/>3 to 4 tablespoons butter
+                <br/><strong>Gravy:</strong>
+                <br/>1 tablespoon butter
+                <br/>2 tablespoons all-purpose flour
+                <br/>1 cup beef broth
+                <br/>1/2 cup milk or half-and-half cream
+                <br/>Salt and pepper to taste
+                <br/>Minced fresh parsley, optional
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    In a large bowl, beat the egg, milk, cornstarch, onion, salt, pepper, nutmeg, allspice and ginger. Add beef; mix well. Shape into 1-1/2-in. meatballs. (Mixture will be very soft. For easier shaping, rinse hands in cold water frequently.)
+                    <br/><br/>
+                    In a large skillet over medium heat, brown the meatballs in butter, half at a time, for about 10 minutes or until no longer pink. Remove meatballs to paper towels to drain, reserving 1 tablespoon drippings in skillet.
+                    <br/><br/>
+                    For gravy, add butter to drippings. Stir in flour. Add broth and milk. Bring to a boil; cook and stir for 2 minutes or until thickened. Season with salt and pepper. Return meatballs to skillet; heat through on low. Garnish with parsley if desired.
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
