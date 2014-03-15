@@ -37,6 +37,11 @@ footer {
     color: #cccccc;
     padding-right: 10px;
 }
+#wireframes{
+    float: right;
+    color: #cccccc;
+    padding-right: 10px;
+}
 /*navigation*/
 .navigation {
     margin: 0;
