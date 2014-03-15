@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Pineapple Fried Rice</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#ChineseNewYear">Chinese New Year</a>
+            </div>
+            <div id="Title">
+                <strong>Pineapple Fried Rice</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/Pineapple Fried Rice.jpg"><img src= "img/Pineapple Fried Rice.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>1 cup small cooked shrimp
+                <br/>8 rings canned pineapple, drained
+                <br/>1/2 carrot
+                <br/>1 red bell pepper
+                <br/>1/2 yellow onion, chopped
+                <br/>1 green onion, white and green sections
+                <br/>1 - 2 tablespoons canned hot Japaleno peppers
+                <br/>2 tablespoons oil for stir-frying, or as needed
+                <br/>1 teaspoon minced garlic
+                <br/>1 teaspoon minced ginger
+                <br/>2 cups cold cooked rice, scented jasmine or basmati if possible
+                <br/>1 to 2 tablespoons light soy sauce
+                <br/>1 teaspoon curry powder, or to taste
+                <br/>Sugar, to taste
+                <br/>Garnish as desired 
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Cook for a few minutes. Add the sesame oil. Serve over white rice.
+                    <br/><br/>
+                    Wash and grate the carrot. Wash the bell pepper, remove the seeds and cut into bite-sized chunks. Peel and chop the onion. Wash and finely chop the green onion. Chop the Jalapeno pepper.
+                    <br/><br/>
+                    Heat a wok or frying pan over medium to medium-heat. Add the oil, rotating the pan so that it coats the bottom and sides.
+                    <br/><br/>
+                    When the oil is hot, add the garlic, ginger and chopped Jalapenos. Stir-fry for 30 seconds, then add the onion. Stir-fry for 1 minute, then add the red bell pepper and the grated carrot. Add the pineapple and the shrimp. Stir-fry briefly.
+                    <br/><br/>
+                    Add the rice, and cook for about 2 minutes, continually stirring and tossing until it becomes shiny. Stir in the soy sauce.
+                    <br/><br/>
+                    Stir in the curry powder and sugar. Taste and adjust the seasoning if desired. Stir in the green onion or use as a garnish. Serve hot.
+                    <br/><br/>
+                    Garnish Suggestions: toasted coconut, crushed peanuts, and/or fresh mint sprigs or cilantro.
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>

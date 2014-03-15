@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Kung Pao Chicken</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#ChineseNewYear">Chinese New Year</a>
+            </div>
+            <div id="Title">
+                <strong>Kung Pao Chicken</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/KungPaoChickenCC.JPG"><img src= "img/KungPaoChickenCC.JPG"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>12 ounces boneless chicken breasts (about 3 halves)
+                <br/>1 dried red chili
+                <br/>1 1/2 tablespoons peanut oil
+                <br/>1/3 cup raw shelled peanuts
+                <br/>2 tablespoons water
+                <br/>2 tablespoons dry sherry
+                <br/>1 tablespoon soy sauce
+                <br/>1 tablespoon chili bean sauce
+                <br/>1 teaspoon sugar
+                <br/>2 garlic cloves, minced
+                <br/>2 scallions, chopped
+                <br/>1 teaspoon grated ginger
+                <br/>2 teaspoons rice or cider vinegar
+                <br/>1 teaspoon sesame oil
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Dice the chicken into 1 inch cubes.
+                    <br/><br/>
+                    Heat the oil in a wok or skillet and add the chili. Add the chicken and peanuts and stir-fry until the chicken is cooked.
+                    <br/><br/>
+                    Add the remaining ingredients, except the sesame oil and bring to a boil.
+                    <br/><br/>
+                    Cook for a few minutes. Add the sesame oil. Serve over white rice.
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
