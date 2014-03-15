@@ -330,12 +330,13 @@ h2 {
 }
 
 .subColumn {
+    
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 15px;
     float: left;
     background-repeat: no-repeat;
     width: 22.2%;
-    height: 200px;
+    height: 220px;
 }
 .subColumn h5{
     font-size: 14px;
