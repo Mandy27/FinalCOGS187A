@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Gingerbread Pancakes</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">By Occasion</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#Christmas">Christmas</a>
+            </div>
+            <div id="Title">
+                <strong>Gingerbread Pancakes</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/Gingerbread-Pancakes1.jpg"><img src= "img/Gingerbread-Pancakes1.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>1 cup all-purpose flour
+                <br/>2 tablespoons sugar
+                <br/>1 teaspoon baking powder
+                <br/>1/2 teaspoon ground cinnamon
+                <br/>1/4 teaspoon ground ginger
+                <br/>1/4 teaspoon ground allspice
+                <br/>1 egg
+                <br/>3/4 cup 2% milk
+                <br/>2 tablespoons molasses
+                <br/>1 tablespoon canola oil
+                <br/>6 tablespoons maple pancake syrup
+                <br/>3/4 cup apple pie filling, warmed
+                <br/>3 tablespoons dried cranberries
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    In a large bowl, combine the first six ingredients. Combine the egg, milk, molasses and oil; stir into dry ingredients just until moistened.
+                    <br/><br/>
+                    Pour batter by 1/4 cupfuls onto a greased hot griddle; turn when bubbles form on top. Cook until the second side is golden brown.
+                    <br/><br/>
+                    To serve, place two pancakes on each plate; drizzle with 2 tablespoons syrup. Top with 1/4 cup apple pie filling; sprinkle with cranberries. 
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
