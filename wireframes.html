@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
         
     <link type="text/css" rel="stylesheet" href="stylesheet.css" />
-    
-    <title>Gluten Free</title>
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>    
+    <title>Wireframes</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                             <li><a href="Occasion.html">By Occasion</a></li>
                         </ul>
                     </li>
-                    <li  id="Current">
+                    <li>
                         <a href="healthychoice.html">Healthy Choices</a>
                         <ul>
                             <li><a href="Gluten-free.html">Gluten-free</a></li>
@@ -58,28 +58,20 @@
 	<!-- Main Page Content -->
 	<div class="sub_nav">
 	    <div id="Title">
-		<strong>Gluten Free</strong>
+		<strong>Wireframes</strong>
 	    </div>
 	   	    <div class="fourColumn">
 		<div class="subColumn">
-		    <a href="GFRep1.html"><img src= "img/RicewShrimp.jpg"></a>
-		    <a href="GFRep1.html"><h5>Curried Rice with Shrimp</h5></a>
-		    <div class="Rate">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+		    <a class="fancybox" data-gallery="1" href="img/KungPaoChickenCC.JPG"><img src= "img/KungPaoChickenCC.JPG"/></a>
 		</div>
 		<div class="subColumn">
-		    <a href="GFRep2.html"><img src= "img/GFTurkey.jpg"></a>
-		    <a href="GFRep2.html"><h5>Turkey and Poblano Chili</h5></a>
-		    <div class="Rate">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+		    <a class="fancybox" data-gallery="1" href="img/KungPaoChickenCC.JPG"><img src= "img/KungPaoChickenCC.JPG"/></a>
 		</div>
 		<div class="subColumn">
-		    <a href="GFRep3.html"><img src= "img/GFChicken.jpg"></a>
-		    <a href="GFRep3.html"><h5>Chicken and Sweet Potatoes with Shallots</h5></a>
-		    <div class="Rate">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+		    <a class="fancybox" data-gallery="1" href="img/KungPaoChickenCC.JPG"><img src= "img/KungPaoChickenCC.JPG"/></a>
 		</div>
 		<div class="subColumn">
-		    <a href="GFRep4.html"><img src= "img/GFSteak.jpg"></a>
-		    <a href="GFRep4.html"><h5>Steak with Chickpeas, Tomatoes, and Feta</h5></a>
-		    <div class="Rate">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+		    <a class="fancybox" data-gallery="1" href="img/KungPaoChickenCC.JPG"><img src= "img/KungPaoChickenCC.JPG"/></a>
 		</div>
 	    </div> 
 	</div>
@@ -90,5 +82,17 @@
 	    <a href="contact.html" id="contact">Contact Us</a>
 	    <a href="wireframes.html" id="wireframes">Wireframes</a>
 	</footer>
+	        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
     </div>
 </body>
+</html>
