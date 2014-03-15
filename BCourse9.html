@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Pasta Primavera</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Course.html">By Course</a> >> <a href="By_Course.html#Dinner">Dinner</a>
+            </div>
+            <div id="Title">
+                <strong>Pasta, Pesto, and Peas</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/pasta_primavera.jpg"><img src= "img/pasta_primavera.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>3 carrots, peeled and cut into thin strips
+                <br/>2 medium zucchini or 1 large zucchini, cut into thin strips
+                <br/>2 yellow squash, cut into thin strips
+                <br/>1 onion, thinly sliced
+                <br/>1 yellow bell pepper, cut into thin strips
+                <br/>1 red bell pepper, cut into thin strips
+                <br/>1/4 cup olive oil
+                <br/>Kosher salt and freshly ground black pepper
+                <br/>1 tablespoon dried Italian herbs or herbes de Provence
+                <br/>1 pound farfalle (bowtie pasta)
+                <br/>15 cherry tomatoes, halved
+                <br/>1/2 cup grated Parmesan
+
+                <!--Read more at: http://www.foodnetwork.com/recipes/giada-de-laurentiis/pasta-primavera-recipe.html -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Preheat the oven to 450 degrees F.
+                    <br/><br/>
+                    On a large heavy baking sheet, toss all of the vegetables with the oil, salt, pepper, and dried herbs to coat.
+                    Transfer half of the vegetable mixture to another heavy large baking sheet and arrange evenly over the baking
+                    sheets. Bake until the carrots are tender and the vegetables begin to brown, stirring after the first 10 minutes,
+                    about 20 minutes total.
+                    <br/><br/>
+                    Meanwhile, cook the pasta in a large pot of boiling salted water until al dente, tender but still firm to the
+                    bite, about 8 minutes. Drain, reserving 1 cup of the cooking liquid.
+                    <br/><br/>
+                    Toss the pasta with the vegetable mixtures in a large bowl to combine. Toss with the cherry tomatoes and enough
+                    reserved cooking liquid to moisten. Season the pasta with salt and pepper, to taste. Sprinkle with the Parmesan
+                    and serve immediately.
+                    <br/><br/>
+                    
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
