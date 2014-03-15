@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Chicken Piccata Pasta Toss</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Course.html">By Course</a> >> <a href="By_Course.html#Dinner">Dinner</a>
+            </div>
+            <div id="Title">
+                <strong>Chicken Piccata Pasta Toss</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/chicken_piccata_pasta.jpg"><img src= "img/chicken_piccata_pasta.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>2 tablespoons extra-virgin olive oil
+                <br/>1 1/3 pounds chicken breast tenders, cut into 1-inch pieces
+                <br/>Salt and pepper
+                <br/>1 1/2 tablespoons butter
+                <br/>4 cloves garlic, chopped
+                <br/>2 shallots, chopped
+                <br/>2 tablespoons all-purpose flour
+                <br/>1/2 cup white wine
+                <br/>1 lemon, juiced
+                <br/>1 cup chicken broth or stock
+                <br/>3 tablespoons capers, drained
+                <br/>1/2 cup flat-leaf parsley, chopped
+                <br/>1 pound penne rigate pasta, cooked to al dente
+                <br/>Chopped or snipped chives, for garnish
+
+                <!--Read more at: http://www.foodnetwork.com/recipes/rachael-ray/chicken-piccata-pasta-toss-recipe.html?oc=linkback-->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Heat a deep nonstick skillet over medium high heat. Add a tablespoon of extra-virgin olive oil and the chicken to the pan.
+                    <br/><br/>
+                    Season chicken with salt and pepper. Brown chicken until lightly golden all over, about 5 to 6 minutes. Remove chicken
+                    from pan and return the skillet to the heat. Reduce heat to medium.
+                    <br/><br/>
+                    Add another tablespoon extra-virgin olive oil and 1 tablespoon butter, the garlic and shallots to the skillet.
+                    Saute garlic and shallots 3 minutes.
+                    <br/><br/>
+                    Add flour and cook 2 minutes. Whisk in wine and reduce liquid 1 minute. Whisk lemon juice and broth into sauce.
+                    Stir in capers and parsley. When the liquid comes to a bubble, add remaining 1/2 tablespoon butter to the sauce to
+                    give it a little shine. Add chicken back to the pan and heat through, 1 to 2 minutes.
+                    <br/><br/>
+                    Toss hot pasta with chicken and sauce and serve. Adjust salt and pepper, to your taste. Top with fresh snipped chives.
+                    <br/><br/>
+                    
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>

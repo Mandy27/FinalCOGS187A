@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Pasta Primavera</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="By_Course.html">By Course</a> >> <a href="By_Course.html#Dinner">Dinner</a>
+            </div>
+            <div id="Title">
+                <strong>Pasta, Pesto, and Peas</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/pasta_primavera.jpg"><img src= "img/pasta_primavera.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>
+                <br/>2 tablespoon(s) quick-cooking barley
+                <br/>2 tablespoon(s) bulgur
+                <br/>2 tablespoon(s) old-fashioned oats
+                <br/>2/3 cup(s) water
+                <br/>2 tablespoon(s) raisins
+                <br/>1 pinch(s) ground cinnamon
+                <br/>1
+                tablespoon(s) chopped walnuts or pecans
+                <br/>Low-fat milk (optional)
+                <!--Read more at: http://www.delish.com/recipefinder/multigrain-cereal-ghk0208 -->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    In microwave-safe 1-quart bowl, combine barley, bulgur, oats, and water.
+                    Microwave on High 2 minutes. Stir in raisins and cinnamon; microwave 3 minutes longer.
+                    Stir, then top with walnuts. Serve with milk if you like.
+                    <br/><br/>
+                    
+            </div>
+        </div> <!-- End Main -->    
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche 
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
