@@ -68,15 +68,15 @@
             </div>
             <div class="subContent">
                 <p>
-		Try one of these gluten-free recipes; they are all approved 
+		Try one of these gluten-free recipes, they are all approved 
 		for beginner chefs.
                 </p>
             </div>
             <div>
-                <a href="Vegetarian.html"><h2>Vegetarian</h2></a>
+                <a href="#"><h2>Vegetarian</h2></a>
             </div>
             <div class="subContent">
-                <a href="Vegetarian.html"><img src="img/VegPizza.jpg"/></a>    
+                <a href="#"><img src="img/VegPizza.jpg"/></a>    
             </div>
             <div class="subContent">
                 <p>
@@ -85,10 +85,10 @@
                 </p>
             </div>
             <div>
-                <a href="HealthyDietTips.html"><h2>Healthy Diet Tips</h2></a>
+                <a href="#"><h2>Healthy Diet Tips</h2></a>
             </div>
             <div class="subContent">
-                <a href="HealthyDietTips.html"><img src="img/tips.jpg"/></a>    
+                <a href="#"><img src="img/tips.jpg"/></a>    
             </div>
             <div class="subContent">
                 <p>
