@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        
+    <link type="text/css" rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen"/>
+    <title>Pumpkin Swirl Cheesecake Recipe</title>
+</head>
+
+<body>
+    <div id="body-container">
+        <nav>
+            <div id="Header-container">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html"><img src="img/newhome3.png"/></a>
+                    </li>
+                    <li  id="Current">
+                        <a href="Recipes.html">Recipes</a>
+                        <ul>
+                            <li><a href="By_Cuisine.html">By Cuisine</a></li>
+                            <li><a href="By_Course.html">By Course</a></li>
+                            <li><a href="Occasion.html">Occasion</a></li>
+                            <li><a href="Budget_Friendly.html">Budget Friendly</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="healthychoice.html">Healthy Choices</a>
+                        <ul>
+                            <li><a href="Gluten-free.html">Gluten-free</a></li>
+                            <li><a href="Vegetarian.html">Vegetarian</a></li>
+                            <li><a href="HealthyDietTips.html">Healthy Diet Tips</a></li>
+                        </ul>
+                    </li>	            		 
+                    <li>
+                        <a href="quickmeals.html">Quick Meals</a>
+                        <ul>
+                            <li><a href="QM_ByCourse.html">By Course</a></li>
+                            <li><a href="CookingVideos.html">Cooking Videos</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="usefullinks.html">Useful Links</a>
+                        <ul>
+                            <li><a href="wheretobuy.html">Where to buy</a></li>
+                            <li><a href="usefullinks.html#SearchByIngredients">Search by Ingredients</a></li>
+                            <li><a href="usefullinks.html#MealPlanner">Meal Planner</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Ingredients Reference Guide</a></li>
+                            <li><a href="usefullinks.html#CalorieCounter">Calorie Counter</a></li>
+                            <li><a href="usefullinks.html#FoodToGo">Food ToGo</a></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Main Page Content -->
+        <div id="Food-Container">
+            <div id="dir">
+                <a href="Occasion.html">Occasion</a> >> <a href="Occasion.html#Thanksgiving">Thanksgiving</a>
+            </div>
+            <div id="Title">
+                <strong>Pumpkin Swirl Cheesecake Recipe</strong>
+            </div>
+            <a class="fancybox" data-gallery="1" href="img/Pumpkin Swirl Cheesecake Recipe.jpg"><img src= "img/Pumpkin Swirl Cheesecake Recipe.jpg"/></a>
+            <div id="IngreInfo">
+                <span>Ingredients</span>
+                <br/>Crust: Graham Cracker
+                <br/>2 cups finely crushed ginger snaps cookies
+                <br/>1/2 cup finely chopped pecans
+                <br/>6 Tablespoons butter or margarine, melted
+                <br/><br/>
+                <strong>Filling:</strong>
+                <br/>3 packages (8 ounces each) cream cheese, softened
+                <br/>1 cup sugar, divided use
+                <br/>1 teaspoon vanilla
+                <br/>3 large eggs at room temperature
+                <br/>1 cup canned pumpkin (not pumpkin pie mix)
+                <br/>OR 1 cup cooked mashed pumpkin
+                <br/>1 teaspoon ground cinnamon
+                <br/>1/4 teaspoon ground nutmeg
+                <br/>1/8 teaspoon ground cloves
+                <!--Read more at: http://homecooking.about.com/od/dessertrecipes/r/blc79.htm-->
+            </div >
+            <div id="Directions">
+                    <br/>
+                    <span>Directions</span>
+                    <br/><br/>
+                    Preheat oven to 325 degrees F. (300 degrees F. for a dark springform pan) and position the oven rack in the center of the oven. 
+                    <br/><br/>
+                    <strong>For the Crust: </strong>
+                    <br/>
+                    Mix ginger snap crumbs, pecans and butter; press onto bottom and 2 inches up side of 9-inch springform pan. 
+                    <br/><br/>
+                    <strong>For the Cheesecake Filling: </strong>
+                    <br/>
+                    Using an electric mixer on medium speed, combine cream cheese, 3/4 cup of the sugar, and the vanilla until well blended. On low speed, add eggs one at a time, mixing each time just until blended. Remove 1-1/2 cups of the plain batter and set aside. 
+                    <br/><br/>
+                    To the remaining plain batter, add remaining 1/4 cup sugar, pumpkin, cinnamon, nutmeg, and cloves. Using a large spoon, stir to combine. 
+                    <br/><br/>
+                    Pour 1/2 of pumpkin batter over crust in springform pan. Spoon 1/2 of plain batter over pumpkin layer. Repeat until all batter is used. Using a long butter knife, gently swirl through all layers of cheesecake batter without disturbing crust to achieve a marbled effect. 
+                    <br/><br/>
+                    Bake for 55 minutes or until center is almost set. Do not overbake. Use a thin knife around the edge of the pan to loosen the crust. Cool completely on wire rack. Remove outer pan and refrigerate at least 4 hours, preferably overnight, before serving. 
+                    <br/><br/>
+            </div>
+        </div> <!-- End Main -->
+    
+        <footer>
+            Copyright &#169; 2014 by Mandy Ngo, Tuan Nguyen, Olivia LaBreche
+            <a href="sitemap.html" id="siteMap">Sitemap</a>
+            <a href="contact.html" id="contact">Contact Us</a>
+        </footer>
+        
+        <!-- Add jQuery library -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Add fancyBox -->
+
+        <script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+        
+        <script type="text/javascript">
+                $(document).ready(function() {
+                        $(".fancybox").fancybox();
+                });
+        </script>
+    </div>
+</body>
+</html>
