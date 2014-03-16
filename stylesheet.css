@@ -483,3 +483,30 @@ span{
 }
 
 /*****************************/
+.WFfourColumn {
+    height: 270px;
+    padding: 6px;
+    text-align: center;
+    margin-left: 50px;
+}
+.WFsubColumn {
+    margin-left: 60px;
+    margin-top: 15px;
+    float: left;
+    background-repeat: no-repeat;
+    width: 22.2%;
+    height: 220px;
+}
+.WFsubColumn h5{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    color: #003366;
+}
+.WFsubColumn a img{
+    width: 200px;
+    height: 220px;
+    border-radius: 10px;
+}
